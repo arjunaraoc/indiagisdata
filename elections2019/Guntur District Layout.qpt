@@ -1,0 +1,87 @@
+<Layout units="mm" name="Guntur District" worldFileMap="{29da0431-da74-400b-9f0b-32575eadf5da}" printResolution="300">
+ <Snapper snapToItems="1" snapToGuides="1" tolerance="5" snapToGrid="0"/>
+ <Grid resolution="10" offsetY="0" offsetX="0" resUnits="mm" offsetUnits="mm"/>
+ <PageCollection>
+  <symbol force_rhr="0" clip_to_extent="1" type="fill" name="" alpha="1">
+   <layer locked="0" class="SimpleFill" enabled="1" pass="0">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="35,35,35,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option value="" type="QString" name="name"/>
+      <Option name="properties"/>
+      <Option value="collection" type="QString" name="type"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem itemRotation="0" id="" positionLock="false" opacity="1" type="65638" positionOnPage="0,0,mm" position="0,0,mm" background="true" visibility="1" zValue="0" templateUuid="{f4bb502d-0541-49d4-be70-6be3cf87efb9}" groupUuid="" frameJoinStyle="miter" frame="false" uuid="{f4bb502d-0541-49d4-be70-6be3cf87efb9}" outlineWidthM="0.3,mm" size="297,210,mm" excludeFromExports="0" referencePoint="0" blendMode="0">
+   <FrameColor red="0" blue="0" green="0" alpha="255"/>
+   <BackgroundColor red="255" blue="255" green="255" alpha="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option value="" type="QString" name="name"/>
+      <Option name="properties"/>
+      <Option value="collection" type="QString" name="type"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem itemRotation="0" followPreset="false" labelMargin="0,mm" mapFlags="0" id="" positionLock="false" followPresetName="" opacity="1" type="65639" positionOnPage="153.373,104.829,mm" position="153.373,104.829,mm" drawCanvasItems="false" background="true" visibility="1" zValue="1" templateUuid="{29da0431-da74-400b-9f0b-32575eadf5da}" groupUuid="" mapRotation="0" frameJoinStyle="miter" frame="false" uuid="{29da0431-da74-400b-9f0b-32575eadf5da}" outlineWidthM="0.3,mm" size="234.593,154.699,mm" excludeFromExports="0" referencePoint="4" blendMode="0" keepLayerSet="false">
+  <FrameColor red="0" blue="0" green="0" alpha="255"/>
+  <BackgroundColor red="255" blue="255" green="255" alpha="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" type="QString" name="name"/>
+     <Option name="properties"/>
+     <Option value="collection" type="QString" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymin="-154682.83814168098615482" xmax="234673.06511381259770133" ymax="154715.30532752425642684" xmin="-234512.93536475711152889"/>
+  <crs>
+   <spatialrefsys>
+    <proj4>Proj4: Extent: -180.00, -90.00, 180.00, 90.00 Proj4: +proj=eqc +lat_ts=0 +lat_0=15.886 +lon_0=80.783E +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
+    <srsid>100025</srsid>
+    <srid>0</srid>
+    <authid>USER:100025</authid>
+    <description>Plate Carree for AP</description>
+    <projectionacronym>eqc</projectionacronym>
+    <ellipsoidacronym></ellipsoidacronym>
+    <geographicflag>false</geographicflag>
+   </spatialrefsys>
+  </crs>
+  <LayerSet/>
+  <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
+  <labelBlockingItems/>
+ </LayoutItem>
+ <customproperties>
+  <property key="atlasRasterFormat" value="png"/>
+  <property key="forceVector" value="0"/>
+  <property key="svgCropMarginBottom" value="0"/>
+  <property key="svgCropMarginLeft" value="0"/>
+  <property key="svgCropMarginRight" value="0"/>
+  <property key="svgCropMarginTop" value="0"/>
+  <property key="svgCropToContents" value="false"/>
+  <property key="svgDisableRasterTiles" value="0"/>
+  <property key="svgGroupLayers" value="false"/>
+  <property key="svgIncludeMetadata" value="1"/>
+  <property key="svgTextFormat" value="0"/>
+ </customproperties>
+ <Atlas pageNameExpression="" hideCoverage="0" filenamePattern="'output_'||@atlas_featurenumber" enabled="0" sortFeatures="0" filterFeatures="0" coverageLayer=""/>
+</Layout>
