@@ -14,8 +14,13 @@
 
 ## QGIS Projects
 
-* Andhra Pradesh 2019 election: elections2019
+* Andhra Pradesh 2019 election: elections2019/elections.qgs
+* AP 2019 District election example:GunturElections.qgz
 * Andhra Pradesh 2019 districts: ap2015-en-final
-* Andhra Pradesh Districts locator: aplocator
+* Andhra Pradesh 2015 districts: ap2015districtstelugu/ap2015districtstelugu
+* Andhra Pradesh Districts locator: aplocator/aplocatordistricts.qgs
+* AP locator:aplocator/aplocator.qgs
+* Telangana base map: telangana/telanganabase (needs some styling)
+* Telangana 2018 Elections: elections2019/Telangana Elections.qgs
 
 
