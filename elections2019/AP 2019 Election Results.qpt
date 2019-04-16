@@ -1,0 +1,132 @@
+<Layout worldFileMap="{b0406d53-b577-4882-aedb-797bf86e2f81}" units="mm" name="AP 2014 Election Results" printResolution="300">
+ <Snapper snapToGrid="0" snapToItems="1" tolerance="1" snapToGuides="1"/>
+ <Grid offsetX="0" resUnits="mm" offsetY="0" resolution="10" offsetUnits="mm"/>
+ <PageCollection>
+  <symbol type="fill" force_rhr="0" name="" clip_to_extent="1" alpha="1">
+   <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+    <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+    <prop v="255,255,255,255" k="color"/>
+    <prop v="miter" k="joinstyle"/>
+    <prop v="0,0" k="offset"/>
+    <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+    <prop v="Point" k="offset_unit"/>
+    <prop v="35,35,35,255" k="outline_color"/>
+    <prop v="no" k="outline_style"/>
+    <prop v="0.26" k="outline_width"/>
+    <prop v="Point" k="outline_width_unit"/>
+    <prop v="solid" k="style"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem uuid="{86561366-5997-429d-9966-b34c5b5204e1}" blendMode="0" frame="false" frameJoinStyle="miter" templateUuid="{86561366-5997-429d-9966-b34c5b5204e1}" positionOnPage="0,0,mm" position="0,0,mm" size="140.821,145.369,mm" opacity="1" zValue="0" visibility="1" itemRotation="0" outlineWidthM="0.3,mm" background="true" type="65638" id="" groupUuid="" excludeFromExports="0" positionLock="false" referencePoint="0">
+   <FrameColor green="0" red="0" alpha="255" blue="0"/>
+   <BackgroundColor green="255" red="255" alpha="255" blue="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem positionLock="false" columnCount="1" splitLayer="0" title="" opacity="1" legendFilterByAtlas="1" symbolWidth="7" rasterBorder="1" groupUuid="" symbolHeight="4" blendMode="0" fontColor="#000000" frame="false" zValue="2" excludeFromExports="0" map_uuid="{b0406d53-b577-4882-aedb-797bf86e2f81}" rasterBorderWidth="0" outlineWidthM="0.3,mm" type="65642" uuid="{7cd932a8-b8ee-4ea2-ae41-b9a5323de4a2}" itemRotation="0" resizeToContents="1" positionOnPage="67.9466,79.372,mm" referencePoint="0" wmsLegendHeight="25" titleAlignment="1" boxSpace="2" id="" templateUuid="{7cd932a8-b8ee-4ea2-ae41-b9a5323de4a2}" visibility="1" position="67.9466,79.372,mm" frameJoinStyle="miter" wrapChar="" columnSpace="2" lineSpacing="1" equalColumnWidth="0" rasterBorderColor="0,0,0,255" size="4,7.5,mm" background="true" wmsLegendWidth="49">
+  <FrameColor green="0" red="0" alpha="255" blue="0"/>
+  <BackgroundColor green="255" red="255" alpha="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" value="" name="name"/>
+     <Option name="properties"/>
+     <Option type="QString" value="collection" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style name="title" marginBottom="3.5">
+    <styleFont style="" description="Ubuntu,16,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style marginTop="3" name="group">
+    <styleFont style="" description="Ubuntu,14,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style marginTop="3" name="subgroup">
+    <styleFont style="" description="Ubuntu,12,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style marginTop="2.5" name="symbol">
+    <styleFont style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+   </style>
+   <style marginLeft="2" marginTop="2" name="symbolLabel">
+    <styleFont style="" description="Ubuntu,12,-1,5,50,0,0,0,0,0"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer expanded="1" id="output_4b7d65ad_7462_4532_b49f_ddfd44e04523" name="AP 2014 Assembly Election Result" checked="Qt::Checked">
+    <customproperties>
+     <property value="0,1,2,3,4" key="legend/node-order"/>
+     <property value="hidden" key="legend/title-style"/>
+    </customproperties>
+   </layer-tree-layer>
+   <custom-order enabled="0"/>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem followPresetName="" followPreset="false" uuid="{b0406d53-b577-4882-aedb-797bf86e2f81}" blendMode="0" frame="false" frameJoinStyle="miter" templateUuid="{b0406d53-b577-4882-aedb-797bf86e2f81}" drawCanvasItems="true" positionOnPage="0,0.000375,mm" mapFlags="0" position="0,0.000375,mm" size="216.821,145.369,mm" opacity="1" zValue="1" labelMargin="0,mm" visibility="1" itemRotation="0" outlineWidthM="0.3,mm" background="true" type="65639" id="" keepLayerSet="false" groupUuid="" excludeFromExports="0" positionLock="false" referencePoint="0" mapRotation="0">
+  <FrameColor green="0" red="0" alpha="255" blue="0"/>
+  <BackgroundColor green="255" red="255" alpha="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" value="" name="name"/>
+     <Option name="properties"/>
+     <Option type="QString" value="collection" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent xmin="75.86245189007011902" xmax="91.20070134679382079" ymin="10.88830078934779522" ymax="21.17189985692390053"/>
+  <LayerSet/>
+  <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
+  <labelBlockingItems/>
+ </LayoutItem>
+ <customproperties>
+  <property value="png" key="atlasRasterFormat"/>
+  <property value="false" key="exportWorldFile"/>
+  <property value="0" key="forceVector"/>
+  <property value="true" key="imageAntialias"/>
+  <property value="0" key="imageCropMarginBottom"/>
+  <property value="0" key="imageCropMarginLeft"/>
+  <property value="0" key="imageCropMarginRight"/>
+  <property value="0" key="imageCropMarginTop"/>
+  <property value="0" key="imageCropMarginUnit"/>
+  <property value="false" key="imageCropToContents"/>
+  <property value="0" key="pdfDisableRasterTiles"/>
+  <property value="1" key="pdfIncludeMetadata"/>
+  <property value="0" key="pdfTextFormat"/>
+  <property value="false" key="rasterize"/>
+  <property value="0" key="resizeToContentsBottomMargin"/>
+  <property value="0" key="resizeToContentsLeftMargin"/>
+  <property value="0" key="resizeToContentsRightMargin"/>
+  <property value="0" key="resizeToContentsTopMargin"/>
+  <property value="0" key="svgCropMarginBottom"/>
+  <property value="0" key="svgCropMarginLeft"/>
+  <property value="0" key="svgCropMarginRight"/>
+  <property value="0" key="svgCropMarginTop"/>
+  <property value="false" key="svgCropToContents"/>
+  <property value="0" key="svgDisableRasterTiles"/>
+  <property value="false" key="svgGroupLayers"/>
+  <property value="1" key="svgIncludeMetadata"/>
+  <property value="0" key="svgTextFormat"/>
+ </customproperties>
+ <Atlas pageNameExpression="" filenamePattern="'output_'||@atlas_featurenumber" coverageLayer="" enabled="0" sortFeatures="0" hideCoverage="0" filterFeatures="0"/>
+</Layout>

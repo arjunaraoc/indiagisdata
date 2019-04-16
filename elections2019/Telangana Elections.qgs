@@ -1,0 +1,878 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.6.1-Noosa">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Checked" name="TG 2018 Assembly Elections - Sheet2" expanded="1" id="TG_2018_Assembly_Elections___Sheet2_1fac6c59_bdfe_4530_ba3d_68bdcc65819a" providerKey="delimitedtext" source="file:///home/arjun/indiagisdata/elections2019/others/TG%202018%20Assembly%20Elections%20-%20Sheet2.csv?type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" name="TG 2018 AC PC" expanded="1" id="TG_2018_AC_PC_b84cee2c_21cf_404d_bdbe_09975903f125" providerKey="ogr" source="./others/TG 2018 AC PC.dbf|layername=TG 2018 AC PC">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>TG_2018_AC_PC_b84cee2c_21cf_404d_bdbe_09975903f125</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" type="2" enabled="1" tolerance="12" intersection-snapping="0" unit="1">
+    <individual-layer-settings>
+      <layer-setting type="2" enabled="1" tolerance="12" id="TG_2018_AC_PC_b84cee2c_21cf_404d_bdbe_09975903f125" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>77.13683232629156805</xmin>
+      <ymin>15.73443779655875829</ymin>
+      <xmax>81.42749941439797112</xmax>
+      <ymax>20.01685251733248805</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer checked="Qt::Checked" name="TG 2018 Assembly Elections - Sheet2" open="true" showFeatureCount="0" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="TG_2018_Assembly_Elections___Sheet2_1fac6c59_bdfe_4530_ba3d_68bdcc65819a" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" name="TG 2018 AC PC" open="true" showFeatureCount="0" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="TG_2018_AC_PC_b84cee2c_21cf_404d_bdbe_09975903f125" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer geometry="Polygon" type="vector" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" autoRefreshTime="0" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyMaxScale="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" labelsEnabled="0" minScale="1e+08" simplifyLocal="1" readOnly="0" maxScale="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>77.23899106648457291</xmin>
+        <ymin>15.83640005181527322</ymin>
+        <xmax>81.32534067420496626</xmax>
+        <ymax>19.91489026207597135</ymax>
+      </extent>
+      <id>TG_2018_AC_PC_b84cee2c_21cf_404d_bdbe_09975903f125</id>
+      <datasource>./others/TG 2018 AC PC.dbf|layername=TG 2018 AC PC</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>TG 2018 AC PC</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
+        <symbols>
+          <symbol type="fill" clip_to_extent="1" name="0" alpha="1" force_rhr="0">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="125,139,143,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ST_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DT_CODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DIST_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AC_NO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AC_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PC_NO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PC_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PC_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATUS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Area">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ST_CODEN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="OBJECTID" index="0"/>
+        <alias name="" field="ST_NAME" index="1"/>
+        <alias name="" field="DT_CODE" index="2"/>
+        <alias name="" field="DIST_NAME" index="3"/>
+        <alias name="" field="AC_NO" index="4"/>
+        <alias name="" field="AC_NAME" index="5"/>
+        <alias name="" field="PC_NO" index="6"/>
+        <alias name="" field="PC_NAME" index="7"/>
+        <alias name="" field="PC_ID" index="8"/>
+        <alias name="" field="STATUS" index="9"/>
+        <alias name="" field="Shape_Leng" index="10"/>
+        <alias name="" field="Shape_Area" index="11"/>
+        <alias name="" field="ST_CODEN" index="12"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="OBJECTID"/>
+        <default applyOnUpdate="0" expression="" field="ST_NAME"/>
+        <default applyOnUpdate="0" expression="" field="DT_CODE"/>
+        <default applyOnUpdate="0" expression="" field="DIST_NAME"/>
+        <default applyOnUpdate="0" expression="" field="AC_NO"/>
+        <default applyOnUpdate="0" expression="" field="AC_NAME"/>
+        <default applyOnUpdate="0" expression="" field="PC_NO"/>
+        <default applyOnUpdate="0" expression="" field="PC_NAME"/>
+        <default applyOnUpdate="0" expression="" field="PC_ID"/>
+        <default applyOnUpdate="0" expression="" field="STATUS"/>
+        <default applyOnUpdate="0" expression="" field="Shape_Leng"/>
+        <default applyOnUpdate="0" expression="" field="Shape_Area"/>
+        <default applyOnUpdate="0" expression="" field="ST_CODEN"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="OBJECTID"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ST_NAME"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DT_CODE"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="DIST_NAME"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="AC_NO"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="AC_NAME"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="PC_NO"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="PC_NAME"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="PC_ID"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="STATUS"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Shape_Leng"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Shape_Area"/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="ST_CODEN"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="OBJECTID"/>
+        <constraint desc="" exp="" field="ST_NAME"/>
+        <constraint desc="" exp="" field="DT_CODE"/>
+        <constraint desc="" exp="" field="DIST_NAME"/>
+        <constraint desc="" exp="" field="AC_NO"/>
+        <constraint desc="" exp="" field="AC_NAME"/>
+        <constraint desc="" exp="" field="PC_NO"/>
+        <constraint desc="" exp="" field="PC_NAME"/>
+        <constraint desc="" exp="" field="PC_ID"/>
+        <constraint desc="" exp="" field="STATUS"/>
+        <constraint desc="" exp="" field="Shape_Leng"/>
+        <constraint desc="" exp="" field="Shape_Area"/>
+        <constraint desc="" exp="" field="ST_CODEN"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" autoRefreshTime="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" minScale="1e+08" readOnly="0" maxScale="0" refreshOnNotifyEnabled="0">
+      <id>TG_2018_Assembly_Elections___Sheet2_1fac6c59_bdfe_4530_ba3d_68bdcc65819a</id>
+      <datasource>file:./others/TG%202018%20Assembly%20Elections%20-%20Sheet2.csv?type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>TG 2018 Assembly Elections - Sheet2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"Constituency no."</value>
+        </property>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="Constituency no.">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Party">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="Constituency no." index="0"/>
+        <alias name="" field="Party" index="1"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="Constituency no."/>
+        <default applyOnUpdate="0" expression="" field="Party"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Constituency no."/>
+        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0" field="Party"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="Constituency no."/>
+        <constraint desc="" exp="" field="Party"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column width="-1" type="field" hidden="0" name="Constituency no."/>
+          <column width="-1" type="field" hidden="0" name="Party"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"Constituency no."</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="TG_2018_AC_PC_b84cee2c_21cf_404d_bdbe_09975903f125"/>
+  </layerorder>
+  <properties>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <Gui>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Layouts>
+      <lastLayoutExportDir type="QString">/home/arjun/indiagisdata/elections2019/TG 2018 Assembly Election Results2.svg</lastLayoutExportDir>
+    </Layouts>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <SearchMethod type="int">0</SearchMethod>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+    </PAL>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Arjuna Rao Chavala</author>
+    <creation>2019-04-04T14:45:46</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts>
+    <Layout printResolution="300" worldFileMap="{46f1dffd-28fb-41e9-afda-7b4e089cbee4}" name="TN 2019 PC" units="mm">
+      <Snapper tolerance="1" snapToGuides="1" snapToGrid="0" snapToItems="1"/>
+      <Grid offsetX="0" offsetY="0" resUnits="mm" offsetUnits="mm" resolution="10"/>
+      <PageCollection>
+        <symbol type="fill" clip_to_extent="1" name="" alpha="1" force_rhr="0">
+          <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="Point" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="Point" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem positionOnPage="0,0,mm" size="350,297,mm" frameJoinStyle="miter" groupUuid="" positionLock="false" blendMode="0" excludeFromExports="0" type="65638" background="true" outlineWidthM="0.3,mm" templateUuid="{1fd0d5dd-6f44-4d0e-ad2c-a839ed704b3b}" position="0,0,mm" visibility="1" frame="false" opacity="1" zValue="0" referencePoint="0" id="" uuid="{1fd0d5dd-6f44-4d0e-ad2c-a839ed704b3b}" itemRotation="0">
+          <FrameColor red="0" green="0" alpha="255" blue="0"/>
+          <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties/>
+          </LayoutObject>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem positionOnPage="185.409,208.332,mm" size="107.2,35.7333,mm" frameJoinStyle="miter" htmlState="0" groupUuid="" marginX="0" halign="4" positionLock="false" marginY="0" blendMode="0" excludeFromExports="0" type="65641" background="true" outlineWidthM="0.3,mm" templateUuid="{f1115a8f-3244-405a-a986-3afabf3c0880}" position="185.409,208.332,mm" visibility="1" frame="false" opacity="1" zValue="2" referencePoint="0" id="" uuid="{f1115a8f-3244-405a-a986-3afabf3c0880}" itemRotation="0" labelText="TELANGANA PARLIAMENT&#xa;CONSTITUENCIES (2019)" valign="128">
+        <FrameColor red="0" green="0" alpha="255" blue="0"/>
+        <BackgroundColor red="253" green="253" alpha="255" blue="150"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="Ubuntu,20,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="31" green="120" blue="180"/>
+      </LayoutItem>
+      <LayoutItem positionOnPage="7.922,6.55386,mm" size="332.05,280.495,mm" frameJoinStyle="miter" keepLayerSet="false" followPreset="false" followPresetName="" groupUuid="" labelMargin="0,mm" positionLock="false" blendMode="0" excludeFromExports="0" type="65639" background="true" outlineWidthM="0.3,mm" mapFlags="0" templateUuid="{46f1dffd-28fb-41e9-afda-7b4e089cbee4}" mapRotation="0" position="7.922,6.55386,mm" visibility="1" frame="false" opacity="1" zValue="1" referencePoint="0" id="" uuid="{46f1dffd-28fb-41e9-afda-7b4e089cbee4}" itemRotation="0" drawCanvasItems="true">
+        <FrameColor red="0" green="0" alpha="255" blue="0"/>
+        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <Extent xmin="75.2710000000000008" xmax="83.29399999999999693" ymin="14.48683573510760425" ymax="21.26416426489240052"/>
+        <LayerSet/>
+        <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
+        <labelBlockingItems/>
+      </LayoutItem>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"/>
+        <property key="exportWorldFile" value="false"/>
+        <property key="forceVector" value="0"/>
+        <property key="imageAntialias" value="true"/>
+        <property key="imageCropMarginBottom" value="10"/>
+        <property key="imageCropMarginLeft" value="10"/>
+        <property key="imageCropMarginRight" value="10"/>
+        <property key="imageCropMarginTop" value="10"/>
+        <property key="imageCropMarginUnit" value="0"/>
+        <property key="imageCropToContents" value="true"/>
+        <property key="pdfDisableRasterTiles" value="0"/>
+        <property key="pdfIncludeMetadata" value="1"/>
+        <property key="pdfTextFormat" value="0"/>
+        <property key="rasterize" value="false"/>
+        <property key="resizeToContentsBottomMargin" value="0"/>
+        <property key="resizeToContentsLeftMargin" value="0"/>
+        <property key="resizeToContentsRightMargin" value="0"/>
+        <property key="resizeToContentsTopMargin" value="0"/>
+        <property key="svgCropMarginBottom" value="0"/>
+        <property key="svgCropMarginLeft" value="0"/>
+        <property key="svgCropMarginRight" value="0"/>
+        <property key="svgCropMarginTop" value="0"/>
+        <property key="svgCropToContents" value="false"/>
+        <property key="svgDisableRasterTiles" value="0"/>
+        <property key="svgGroupLayers" value="false"/>
+        <property key="svgIncludeMetadata" value="1"/>
+        <property key="svgTextFormat" value="0"/>
+      </customproperties>
+      <Atlas filenamePattern="'output_'||@atlas_featurenumber" enabled="0" hideCoverage="0" pageNameExpression="" coverageLayer="" filterFeatures="0" sortFeatures="0"/>
+    </Layout>
+    <Layout printResolution="300" worldFileMap="{46f1dffd-28fb-41e9-afda-7b4e089cbee4}" name="TN 2018 AC Result" units="mm">
+      <Snapper tolerance="1" snapToGuides="1" snapToGrid="0" snapToItems="1"/>
+      <Grid offsetX="0" offsetY="0" resUnits="mm" offsetUnits="mm" resolution="10"/>
+      <PageCollection>
+        <symbol type="fill" clip_to_extent="1" name="" alpha="1" force_rhr="0">
+          <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="Point" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="Point" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem positionOnPage="0,0,mm" size="350,297,mm" frameJoinStyle="miter" groupUuid="" positionLock="false" blendMode="0" excludeFromExports="0" type="65638" background="true" outlineWidthM="0.3,mm" templateUuid="{05b30247-bc90-48ad-9a5b-bd2f6b73cefd}" position="0,0,mm" visibility="1" frame="false" opacity="1" zValue="0" referencePoint="0" id="" uuid="{05b30247-bc90-48ad-9a5b-bd2f6b73cefd}" itemRotation="0">
+          <FrameColor red="0" green="0" alpha="255" blue="0"/>
+          <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties/>
+          </LayoutObject>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem titleAlignment="1" rasterBorderWidth="0" wrapChar="" map_uuid="{b071b6c6-0234-4d1e-ad42-59895e5123a4}" type="65642" groupUuid="" wmsLegendWidth="50" uuid="{4725b6b8-481d-4761-826d-6fe91a21bb48}" lineSpacing="1" title="" id="" fontColor="#000000" rasterBorder="1" frame="false" symbolHeight="4" zValue="3" rasterBorderColor="0,0,0,255" symbolWidth="7" background="true" equalColumnWidth="0" position="247.659,66.3025,mm" frameJoinStyle="miter" itemRotation="0" resizeToContents="1" positionLock="false" opacity="1" size="36.6375,57,mm" columnSpace="2" wmsLegendHeight="25" splitLayer="0" excludeFromExports="0" blendMode="0" positionOnPage="247.659,66.3025,mm" outlineWidthM="0.3,mm" visibility="1" legendFilterByAtlas="0" referencePoint="0" boxSpace="2" templateUuid="{4725b6b8-481d-4761-826d-6fe91a21bb48}" columnCount="1">
+        <FrameColor red="0" green="0" alpha="255" blue="0"/>
+        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <styles>
+          <style marginBottom="3.5" name="title">
+            <styleFont description="Ubuntu,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style name="group" marginTop="3">
+            <styleFont description="Ubuntu,14,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style name="subgroup" marginTop="3">
+            <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style name="symbol" marginTop="2.5">
+            <styleFont description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginLeft="2" name="symbolLabel" marginTop="2">
+            <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+        <layer-tree-group>
+          <customproperties/>
+          <layer-tree-layer checked="Qt::Checked" name="TG 2018 AC" expanded="1" id="Clipped_9c99515d_b83b_4ba2_af28_5e901bef8459">
+            <customproperties>
+              <property key="legend/node-order" value="0,1,2,3,4,5,6"/>
+              <property key="showFeatureCount" value="1"/>
+            </customproperties>
+          </layer-tree-layer>
+          <custom-order enabled="0"/>
+        </layer-tree-group>
+      </LayoutItem>
+      <LayoutItem positionOnPage="181.996,201.507,mm" size="103.3,30.8581,mm" frameJoinStyle="miter" htmlState="0" groupUuid="" marginX="0" halign="4" positionLock="false" marginY="0" blendMode="0" excludeFromExports="0" type="65641" background="true" outlineWidthM="0.3,mm" templateUuid="{1bb834a1-68f4-4280-b924-768bd8e715ba}" position="181.996,201.507,mm" visibility="1" frame="false" opacity="1" zValue="2" referencePoint="0" id="" uuid="{1bb834a1-68f4-4280-b924-768bd8e715ba}" itemRotation="0" labelText="TELANGANA ASSEMBLY&#xa;ELECTION-2018 RESULT" valign="128">
+        <FrameColor red="0" green="0" alpha="255" blue="0"/>
+        <BackgroundColor red="253" green="253" alpha="255" blue="150"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="Ubuntu,20,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="31" green="120" blue="180"/>
+      </LayoutItem>
+      <LayoutItem positionOnPage="7.922,6.55386,mm" size="332.05,280.495,mm" frameJoinStyle="miter" keepLayerSet="false" followPreset="false" followPresetName="" groupUuid="" labelMargin="0,mm" positionLock="false" blendMode="0" excludeFromExports="0" type="65639" background="true" outlineWidthM="0.3,mm" mapFlags="0" templateUuid="{b071b6c6-0234-4d1e-ad42-59895e5123a4}" mapRotation="0" position="7.922,6.55386,mm" visibility="1" frame="false" opacity="1" zValue="1" referencePoint="0" id="" uuid="{b071b6c6-0234-4d1e-ad42-59895e5123a4}" itemRotation="0" drawCanvasItems="true">
+        <FrameColor red="0" green="0" alpha="255" blue="0"/>
+        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <Extent xmin="75.2710000000000008" xmax="83.29399999999999693" ymin="14.48683573510760425" ymax="21.26416426489240052"/>
+        <LayerSet/>
+        <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
+        <labelBlockingItems/>
+      </LayoutItem>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"/>
+        <property key="exportWorldFile" value="false"/>
+        <property key="forceVector" value="0"/>
+        <property key="imageAntialias" value="true"/>
+        <property key="imageCropMarginBottom" value="10"/>
+        <property key="imageCropMarginLeft" value="10"/>
+        <property key="imageCropMarginRight" value="10"/>
+        <property key="imageCropMarginTop" value="10"/>
+        <property key="imageCropMarginUnit" value="0"/>
+        <property key="imageCropToContents" value="true"/>
+        <property key="pdfDisableRasterTiles" value="0"/>
+        <property key="pdfIncludeMetadata" value="1"/>
+        <property key="pdfTextFormat" value="0"/>
+        <property key="rasterize" value="false"/>
+        <property key="resizeToContentsBottomMargin" value="0"/>
+        <property key="resizeToContentsLeftMargin" value="0"/>
+        <property key="resizeToContentsRightMargin" value="0"/>
+        <property key="resizeToContentsTopMargin" value="0"/>
+        <property key="svgCropMarginBottom" value="0"/>
+        <property key="svgCropMarginLeft" value="0"/>
+        <property key="svgCropMarginRight" value="0"/>
+        <property key="svgCropMarginTop" value="0"/>
+        <property key="svgCropToContents" value="true"/>
+        <property key="svgDisableRasterTiles" value="0"/>
+        <property key="svgGroupLayers" value="false"/>
+        <property key="svgIncludeMetadata" value="0"/>
+        <property key="svgTextFormat" value="1"/>
+      </customproperties>
+      <Atlas filenamePattern="'output_'||@atlas_featurenumber" enabled="0" hideCoverage="0" pageNameExpression="" coverageLayer="" filterFeatures="0" sortFeatures="0"/>
+    </Layout>
+  </Layouts>
+</qgis>
