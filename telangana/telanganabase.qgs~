@@ -4190,7 +4190,7 @@ def my_form_open(dialog, layer, feature):
     </WFSTLayers>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <Layouts>
-      <lastLayoutExportDir type="QString">/home/arjun/indiagisdata/TG 2019 neighbors-te.svg</lastLayoutExportDir>
+      <lastLayoutExportDir type="QString">/home/arjun/indiagisdata</lastLayoutExportDir>
     </Layouts>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>

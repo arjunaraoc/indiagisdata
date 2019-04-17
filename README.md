@@ -20,7 +20,7 @@
 * Andhra Pradesh 2015 districts: ap2015districtstelugu/ap2015districtstelugu
 * Andhra Pradesh Districts locator: aplocator/aplocatordistricts.qgs
 * AP locator:aplocator/aplocator.qgs
-* Telangana base map: telangana/telanganabase (needs some styling)
+* Telangana base map: telangana/telanganabase.qgs
 * Telangana 2018 Elections: elections2019/Telangana Elections.qgs
 
 
