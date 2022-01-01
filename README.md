@@ -1,5 +1,10 @@
 # India GIS Project with focus on Andhra Pradesh
-## Inputs
+## Inputs from 2020
+
+* OSM data
+* Natuaral earth
+
+## Prior to 2020
 * [India boundary file](https://map.igismap.com/maps/layer_view/work20180928135038:india-soi154207/882)
   * License:CC-0 (requires email submission)
 
@@ -13,7 +18,10 @@
   * License:  Creative Commons Attribution 2.5 India
 
 ## QGIS Projects
-
+### After 2020
+* Andhra Pradesh 2021 districts: apdistrict-osm/
+* Telangana 2021 districts: tg-districts-2021
+### Prior to 2020
 * Andhra Pradesh 2019 election: elections2019/elections.qgs
 * AP 2019 District election example:GunturElections.qgz
 * Andhra Pradesh 2019 districts: ap2015-en-final
