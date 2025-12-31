@@ -1,3 +1,6 @@
 
 *.png
 *.svg
+amaravati/*.geojson
+amaravati/timelapse-atlas
+amaravati/*.qmd
