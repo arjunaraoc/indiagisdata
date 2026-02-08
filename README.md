@@ -5,9 +5,9 @@
 * Amaravati OSM time lapse edits Style sheet, project  (amaravati/)
 ###2024-2025
 * Andhra Pradesh districts: (Ganapavaram mandal transfer update) apdistricts/
-###2020-2023
-* Andhra Pradesh districts (standard background layers of natural earth, AP bordering states, Bay of Bengal): apdistrict-osm/ 
+###2014-2023
 * Andhra Pradesh districts: apdistrict-2022/
+* Andhra Pradesh districts ( After bifurcation of united AP, standard background layers of natural earth, AP bordering states, Bay of Bengal): apdistrict-osm/ 
 * Telangana 2021 districts: tg-districts-2021/
 ### Prior to 2020
 * Andhra Pradesh 2019 election: elections2019/elections.qgs
