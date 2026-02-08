@@ -1,23 +1,8 @@
 # India GIS Project with focus on Andhra Pradesh
-## Inputs from 2020
 
-* OSM data
-* Natuaral earth
-
-## Prior to 2020
-* [India boundary file](https://map.igismap.com/maps/layer_view/work20180928135038:india-soi154207/882)
-  * License:CC-0 (requires email submission)
-
-* [India states](https://map.igismap.com/maps/layer_view/work20180928135038:india-soi154207/882) 
-  * License:CC-0 (requires email submission)
-
-* [India districts](https://gadm.org/download_country_v3.html)
-  * Ver 3.6 (released on 6 May 2018)[GADM license](https://web.archive.org/web/20190327051534/https://gadm.org/license.html)
-
-* [2014 India Constituency Information from Community Created Maps of India](http://projects.datameet.org/maps/)
-  * License:  Creative Commons Attribution 2.5 India
-
-## QGIS Projects
+### 2025-
+* Andhra Pradesh districts: apdistricts/ (Some layers are from apdistrict-osm/)
+* Amaravati OSM time lapse edits Style sheet, project  (amaravati/)
 ### After 2020
 * Andhra Pradesh 2021 districts: apdistrict-osm/
 * Telangana 2021 districts: tg-districts-2021
@@ -30,5 +15,27 @@
 * AP locator:aplocator/aplocator.qgs
 * Telangana base map: telangana/telanganabase.qgs
 * Telangana 2018 Elections: elections2019/Telangana Elections.qgs
+
+## Inputs for above projects
+
+### After 2020
+* OSM data
+* Natuaral earth
+
+### Prior to 2020
+* [India boundary file](https://map.igismap.com/maps/layer_view/work20180928135038:india-soi154207/882)
+  * License:CC-0 (requires email submission)
+
+* [India states](https://map.igismap.com/maps/layer_view/work20180928135038:india-soi154207/882) 
+  * License:CC-0 (requires email submission)
+
+* [India districts](https://gadm.org/download_country_v3.html)
+  * Ver 3.6 (released on 6 May 2018)[GADM license](https://web.archive.org/web/20190327051534/https://gadm.org/license.html)
+
+* [2014 India Constituency Information from Community Created Maps of India](http://projects.datameet.org/maps/)
+  * License:  Creative Commons Attribution 2.5 India
+
+
+
 
 
